@@ -1,0 +1,46 @@
+
+1) what is lexical scoping?
+
+2) what is nodejs architecture?
+
+3) explain the event loop
+
+4) what is the output of the following code
+   function y() {
+      console.log(1);
+      setTimeout(() => {
+         console.log(2);
+      }, 0);
+      new Promise(resolve => {
+         console.log(3);
+         resolve(4);
+         console.log(5);
+      });
+      new Promise(resolve => resolve(6)).then(console.log);
+      console.log(7);
+    }
+
+5) write a piece of code that can flatten this object
+let obj = {
+  a: "foo",
+  b: {
+    x: {
+      m: "bar",
+      n: {
+        r: "ding",
+      },
+    },
+    y: "100",
+  },
+  c: "wow",
+};
+
+6) what is the difference between bind, call and apply
+
+7) what is the difference between arrow function and anonymous function
+
+8) what is the time complexity of the piece of code you wrote for question 5
+
+9) write a piece of code that can output the first repeating number in [8, 3, 9, 2, 7, 0, 3, 9] array
+
+10) what is the time complexity of the code for question 9

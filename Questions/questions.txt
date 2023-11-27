@@ -1,0 +1,81 @@
+
+1) what id the difference between var, let and const?
+
+2) let str = "abctwerwerbdasfdhfhryerfbawqwdfeeeh";
+   find frequency of occurrence of letters in a string
+
+3) what is the difference between monalith app and microservices?
+
+4) what is the latest version of typescript?
+
+5) take a javascript object and write an example interface in typescript
+
+6) take a javascript array of objects and write an example interface in typescript
+
+7) what is hoisting?
+
+8) what is a closure?
+
+9) what is the difference between bind, call and apply, write example code.
+
+10) how do you interact with a database?
+
+11) what are the ways we can optimize database queries in mongodb?
+
+12) how does indexes work behind the scenes? what data structure do they use?
+
+13) explain different ways of storing the data in mongodb?
+
+14) in mongoose library do you buld the schema beforehand or construct it on the fly?
+
+15) explain the record type in typescript
+
+16) how do you do modulus in javascript/nodejs
+
+17) what are ways we can store user passwords so that we can easily do forget password and reset password functionality?
+
+18) how to do share user session data between different server instances?
+
+19) how do you generally authenticate a user? do you use token exipry? how do you refresh the user token if the user is online for long time?
+
+20) what is the difference between async/await and callbacks? which is more performant? what are their drawbacks and advantages?
+
+21) write a simple async function and also convert that async function to arrow function.
+
+22) what is the difference between normal function and arrow function?
+
+23) how do i retain the value of this in an arrow function when called with setInterval? (answer: by binding the this to the arrow function)
+
+24) what happens when you are awaiting a function that returns a primitive value? how does this work internally?
+
+25) where do you store database token and other sensitive data in your code? does .env file get commited to github?
+
+26) describe the nodejs event loop?
+
+27) explain in detail the different stages of the event loop?
+
+28) if I write process.nextTick(()=>console.log("i am on line 1")) in line 1 and on line 2 I write console.log("I am on line 2"). 
+    whithout running the script what will be the output?
+
+29) for (var i = 0; i < 5; i++) {
+        setTimeout(function () {
+             console.log(i);
+            }, i);
+         }
+     what is the output of this script? and why?
+
+30) do you have experience dealing with media content on the server? how do you stream a video from a nodejs server?
+
+31) explain the difference between GET, POST, PUT, PATCH and DELETE HTTP methods
+
+32) How do you handle errors in your application? do you do all the handling in one place or every function is responsible to handle it's own error?
+
+33) what is the difference between GCP cloud function vs GCP cloud run?
+
+34) if user uploads some media where do you typically store the media? database or some external storage? which is more efficient?
+
+35) How do you deal with cors issues? what is OPTIONS request? 
+
+36) How do you whitelist domains in your server?
+
+
